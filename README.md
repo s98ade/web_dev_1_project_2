@@ -20,6 +20,7 @@ This is a simple movie search app using AJAX to fetch data from the Open Movie D
 
 ## Web links
 - **Published application:**
+https://comfy-taiyaki-9b752a.netlify.app/
 
 
 ## About the application
@@ -46,7 +47,7 @@ This application sends a request to the OMDb API with the search text and the se
 git clone https://github.com/s98ade/web_dev_1_project_2.git
 ```
 2. Open the project folder
-3. Get a free API key from `https://www.omdbapi.com/apikey.aspx` and paste it into `API_KEY`
+3. Get a free API key from `https://www.omdbapi.com/apikey.aspx` and add `OMDB_API_KEY`
 4. Open 'index.html' in a web browser (or use a live server extension in your IDE)
 
 
@@ -86,7 +87,9 @@ git clone https://github.com/s98ade/web_dev_1_project_2.git
 
 ## Sources
 https://www.omdbapi.com/
+
 https://dev.to/abhidevelopssuntech/how-to-make-a-movie-app-in-vanilla-javascript-2336
+
 Course material
 
 

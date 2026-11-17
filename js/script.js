@@ -10,8 +10,7 @@ const results = document.getElementById("results");
 // Request data from the API
 async function searchMovies(title, type) {
   // Build the address of the request
-  let url = "https://www.omdbapi.com/?apikey=" + API_KEY;
-  url = url + "&s=" + encodeURIComponent(title);
+  let url = "/.netlify/myapi?s=" + encodeURIComponent(title);
   if (type !== "") {
     url = url + "&type=" + type;
   }
