@@ -1,5 +1,3 @@
-const API_KEY = "f7c482ce";
- 
 // Find the elements from the HTML page
 const searchForm = document.getElementById("search-form");
 const searchInput = document.getElementById("search-input");
